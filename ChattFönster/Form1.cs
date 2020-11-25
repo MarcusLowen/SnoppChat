@@ -14,6 +14,7 @@ namespace ChattFönster
 {
     public partial class Form1 : Form
     {
+        List<Label> labelList = new List<Label>();
 
         WebClient wc = new WebClient();
 
@@ -48,9 +49,8 @@ namespace ChattFönster
 
                 //SendMessage(message, name);
 
-                Label messageLabel = new Label();
-                messageLabel.Text = message;
-                messageLabel.Location = new Point(100, 50);
+
+                AddMessageBox(message);
             }
         }
 
@@ -97,6 +97,25 @@ namespace ChattFönster
             {
                 Skicka.PerformClick();
             }
+        }
+
+        public void AddMessageBox(string message)
+        {
+            Label messageLabel = new Label();
+            messageLabel.Text = message;
+
+            for(int i = 0; i < labelList.Count; i++)
+            {
+                labelList[0].Location = new Point(labelList[0].Location.X, labelList[0].Location.Y - 50);
+            }
+
+            messageLabel.Location = new Point(635, 375);
+            messageLabel.
+            messageLabel.Enabled = true;
+            messageLabel.AutoSize = true;
+            this.Controls.Add(messageLabel);
+            labelList.Add(messageLabel);
+            
         }
     }
 }
