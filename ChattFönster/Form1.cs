@@ -82,7 +82,8 @@ namespace ChattFönster
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            name = label1.Text;
+            name = login.name;
+            label1.Text = name;
             
         }
 
