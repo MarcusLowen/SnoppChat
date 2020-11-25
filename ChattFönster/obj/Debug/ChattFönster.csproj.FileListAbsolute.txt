@@ -1,0 +1,13 @@
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\ChattFönster.exe.config
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\ChattFönster.exe
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\ChattFönster.pdb
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.Form1.resources
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.resources
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.exe
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.pdb
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\Newtonsoft.Json.dll
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\Newtonsoft.Json.xml
+K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
