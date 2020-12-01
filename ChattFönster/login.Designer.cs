@@ -75,12 +75,13 @@
             // 
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(394, 496);
+            this.ClientSize = new System.Drawing.Size(426, 496);
             this.Controls.Add(this.NameStatus);
             this.Controls.Add(this.CurrentName);
             this.Controls.Add(this.DoneButton);
             this.Controls.Add(this.NameBox);
             this.Name = "login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
