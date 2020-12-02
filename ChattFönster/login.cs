@@ -76,8 +76,8 @@ namespace ChattFönster
 
         private void playHolyMusic()
         {
-            //SoundPlayer simpleSound = new SoundPlayer(@"\crack2.mp3");
-            //simpleSound.Play();
+            SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
+            simpleSound.Play();
         }
     }
 }

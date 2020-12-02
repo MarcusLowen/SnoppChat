@@ -34,6 +34,15 @@
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.EmojiButton = new System.Windows.Forms.Button();
+            this.EggplantButton = new System.Windows.Forms.PictureBox();
+            this.MonkeeButton = new System.Windows.Forms.PictureBox();
+            this.HappyButton = new System.Windows.Forms.PictureBox();
+            this.CoolButton = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.EggplantButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MonkeeButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HappyButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoolButton)).BeginInit();
             this.SuspendLayout();
             // 
             // Skicka
@@ -80,7 +89,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(312, 31);
+            this.label1.Location = new System.Drawing.Point(313, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(174, 29);
             this.label1.TabIndex = 4;
@@ -97,6 +106,65 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "snoppeeeeeeen!!!";
             // 
+            // EmojiButton
+            // 
+            this.EmojiButton.Location = new System.Drawing.Point(566, 361);
+            this.EmojiButton.Name = "EmojiButton";
+            this.EmojiButton.Size = new System.Drawing.Size(52, 19);
+            this.EmojiButton.TabIndex = 6;
+            this.EmojiButton.Text = "Emojis";
+            this.EmojiButton.UseVisualStyleBackColor = true;
+            this.EmojiButton.Click += new System.EventHandler(this.EmojiButton_Click);
+            // 
+            // EggplantButton
+            // 
+            this.EggplantButton.BackColor = System.Drawing.SystemColors.Control;
+            this.EggplantButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EggplantButton.BackgroundImage")));
+            this.EggplantButton.ErrorImage = ((System.Drawing.Image)(resources.GetObject("EggplantButton.ErrorImage")));
+            this.EggplantButton.Image = ((System.Drawing.Image)(resources.GetObject("EggplantButton.Image")));
+            this.EggplantButton.Location = new System.Drawing.Point(482, 239);
+            this.EggplantButton.Name = "EggplantButton";
+            this.EggplantButton.Size = new System.Drawing.Size(136, 94);
+            this.EggplantButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.EggplantButton.TabIndex = 7;
+            this.EggplantButton.TabStop = false;
+            this.EggplantButton.Visible = false;
+            // 
+            // MonkeeButton
+            // 
+            this.MonkeeButton.Image = ((System.Drawing.Image)(resources.GetObject("MonkeeButton.Image")));
+            this.MonkeeButton.Location = new System.Drawing.Point(339, 239);
+            this.MonkeeButton.Name = "MonkeeButton";
+            this.MonkeeButton.Size = new System.Drawing.Size(125, 94);
+            this.MonkeeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MonkeeButton.TabIndex = 8;
+            this.MonkeeButton.TabStop = false;
+            this.MonkeeButton.Visible = false;
+            // 
+            // HappyButton
+            // 
+            this.HappyButton.Image = ((System.Drawing.Image)(resources.GetObject("HappyButton.Image")));
+            this.HappyButton.Location = new System.Drawing.Point(222, 239);
+            this.HappyButton.Name = "HappyButton";
+            this.HappyButton.Size = new System.Drawing.Size(111, 94);
+            this.HappyButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HappyButton.TabIndex = 9;
+            this.HappyButton.TabStop = false;
+            this.HappyButton.Visible = false;
+            // 
+            // CoolButton
+            // 
+            this.CoolButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CoolButton.BackgroundImage")));
+            this.CoolButton.Image = ((System.Drawing.Image)(resources.GetObject("CoolButton.Image")));
+            this.CoolButton.Location = new System.Drawing.Point(104, 239);
+            this.CoolButton.Name = "CoolButton";
+            this.CoolButton.Size = new System.Drawing.Size(112, 94);
+            this.CoolButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.CoolButton.TabIndex = 10;
+            this.CoolButton.TabStop = false;
+            this.CoolButton.Visible = false;
+            this.CoolButton.Click += new System.EventHandler(this.CoolButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,6 +173,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.CoolButton);
+            this.Controls.Add(this.HappyButton);
+            this.Controls.Add(this.MonkeeButton);
+            this.Controls.Add(this.EggplantButton);
+            this.Controls.Add(this.EmojiButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.vScrollBar1);
@@ -114,6 +187,10 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.EggplantButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MonkeeButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HappyButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoolButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,6 +203,11 @@
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button EmojiButton;
+        private System.Windows.Forms.PictureBox EggplantButton;
+        private System.Windows.Forms.PictureBox MonkeeButton;
+        private System.Windows.Forms.PictureBox HappyButton;
+        private System.Windows.Forms.PictureBox CoolButton;
     }
 }
 

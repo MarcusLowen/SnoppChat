@@ -14,7 +14,7 @@ namespace ChattFönster
 {
     public partial class Form1 : Form
     {
-
+        bool emojible = false;
         WebClient wc = new WebClient();
 
         string name;
@@ -98,6 +98,32 @@ namespace ChattFönster
             {
                 Skicka.PerformClick();
             }
+        }
+
+        private void EmojiButton_Click(object sender, EventArgs e)
+        {
+            
+
+            if (emojible == false)
+            {
+                EggplantButton.Visible = true;
+                HappyButton.Visible = true;
+                CoolButton.Visible = true;
+                MonkeeButton.Visible = true;
+                emojible = true;
+            } else if (emojible == true)
+            {
+                EggplantButton.Visible = false;
+                HappyButton.Visible = false;
+                CoolButton.Visible = false;
+                MonkeeButton.Visible = false;
+                emojible = false;
+            }
+        }
+
+        private void CoolButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
