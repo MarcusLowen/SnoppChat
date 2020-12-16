@@ -81,6 +81,7 @@
             this.Controls.Add(this.DoneButton);
             this.Controls.Add(this.NameBox);
             this.Name = "login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

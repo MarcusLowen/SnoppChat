@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Skicka = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -52,7 +54,7 @@
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBox1.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox1.Location = new System.Drawing.Point(0, 443);
+            this.textBox1.Location = new System.Drawing.Point(0, 477);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
@@ -70,7 +72,7 @@
             this.vScrollBar1.Location = new System.Drawing.Point(776, 0);
             this.vScrollBar1.Minimum = 1;
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(26, 443);
+            this.vScrollBar1.Size = new System.Drawing.Size(26, 477);
             this.vScrollBar1.TabIndex = 3;
             this.vScrollBar1.Value = 100;
             this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.VScrollBar1_Scroll);
@@ -80,23 +82,30 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(311, 31);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(318, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 29);
+            this.label1.Size = new System.Drawing.Size(193, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "SnoppMeister";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 10000;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(466, 316);
+            this.label2.Location = new System.Drawing.Point(32, 320);
+            this.label2.MaximumSize = new System.Drawing.Size(200, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
+            this.label2.Text = "därfrör ffsj";
             // 
             // Form1
             // 
@@ -105,7 +114,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 480);
+            this.ClientSize = new System.Drawing.Size(800, 514);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.vScrollBar1);
@@ -126,6 +135,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label2;
     }
 }
