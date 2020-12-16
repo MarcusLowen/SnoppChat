@@ -1,0 +1,16 @@
+{
+  "todo": [],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Patrik Grip-Jansson"
+      },
+      "creation_time": "2020-10-17T20:09:15.700Z",
+      "id": "1",
+      "references": [],
+      "title": "Test"
+    }
+  ],
+  "testing": [],
+  "done": []
+}
