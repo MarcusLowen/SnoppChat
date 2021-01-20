@@ -106,3 +106,11 @@ dist
 ChattFönster/obj/Debug/
 
 *.cache
+
+\.vs/ChattFönster/v16/\.suo
+
+\.vs/slnx\.sqlite
+
+*.exe
+
+*.pdb

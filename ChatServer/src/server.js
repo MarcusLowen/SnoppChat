@@ -1,7 +1,8 @@
 var fs = require('fs');
 var express = require('express');
 const { time } = require('console');
-var data = fs.readFileSync('serverdata.json');
+let data = fs.readFileSync('serverdata.json');
+
 var document = JSON.parse(data);
 
 var userdata = fs.readFileSync('users.json');
@@ -26,9 +27,10 @@ function sendMessage(req, res) {
         var reply = {
             msg: "failed."
         }
+        console.log("fel!")
         res.send(reply);
     } else {
-        document[Date.now()] = {time: date, user: user, message: message};
+        document.Messages.push({time: date, user: user, message: message});
         var data = JSON.stringify(document, null, 2);
         fs.writeFile('serverdata.json', data, finished);
 
@@ -45,11 +47,12 @@ function sendMessage(req, res) {
 } 
 
 
-app.get('/add/:user', addUser)
-
+app.get('/add/:user/:password', addUser)
+ 
 function addUser(req, res) {
-    var user = req.params.user;
-    var reply;
+    let user = req.params.user;
+    let password = req.params.password;
+    let reply;
     if (users[user]) {
         reply = {
             status: "user already exists",
@@ -57,8 +60,8 @@ function addUser(req, res) {
         }
         res.send(reply);
     } else {
-        users[user] = 1;
-        var data = JSON.stringify(users, null, 2);
+        users[user] = password;
+        let data = JSON.stringify(users, null, 2);
         fs.writeFile('users.json', data, function() {
             reply = {
                 status: "sucess"
@@ -66,6 +69,24 @@ function addUser(req, res) {
             res.send(reply);
         });
     }
+}
+ 
+app.get('/login/:user/:password', login)
+ 
+function login(req, res) {
+    let user = req.params.user;
+    let password = req.params.password;
+    let reply;
+    if (users[user] === password) {
+        reply = {
+            status: "sucess"
+        }
+    } else {
+        reply = {
+            status: "failed"
+        }
+    }
+    res.send(reply);
 }
 
 app.get('/all', sendAll);

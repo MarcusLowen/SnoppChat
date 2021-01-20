@@ -35,7 +35,6 @@
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label2 = new System.Windows.Forms.Label();
             this.EmojiButton = new System.Windows.Forms.Button();
             this.EggplantButton = new System.Windows.Forms.PictureBox();
             this.MonkeeButton = new System.Windows.Forms.PictureBox();
@@ -61,7 +60,7 @@
             // 
             this.Skicka.AutoSize = true;
             this.Skicka.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Skicka.Location = new System.Drawing.Point(701, 419);
+            this.Skicka.Location = new System.Drawing.Point(696, 465);
             this.Skicka.Name = "Skicka";
             this.Skicka.Size = new System.Drawing.Size(75, 23);
             this.Skicka.TabIndex = 1;
@@ -73,11 +72,11 @@
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBox1.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox1.Location = new System.Drawing.Point(0, 442);
+            this.textBox1.Location = new System.Drawing.Point(0, 494);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox1.Size = new System.Drawing.Size(802, 20);
+            this.textBox1.Size = new System.Drawing.Size(800, 20);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Write Text Here";
             this.textBox1.Click += new System.EventHandler(this.TextBox1_Click);
@@ -88,10 +87,9 @@
             // 
             this.vScrollBar1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.vScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.vScrollBar1.Location = new System.Drawing.Point(776, 0);
-            this.vScrollBar1.Minimum = 1;
+            this.vScrollBar1.Location = new System.Drawing.Point(774, 0);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(26, 442);
+            this.vScrollBar1.Size = new System.Drawing.Size(26, 494);
             this.vScrollBar1.TabIndex = 3;
             this.vScrollBar1.Value = 100;
             this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.VScrollBar1_Scroll);
@@ -278,7 +276,6 @@
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button EmojiButton;
         private System.Windows.Forms.PictureBox EggplantButton;
         private System.Windows.Forms.PictureBox MonkeeButton;
