@@ -1743,7 +1743,7 @@
         QAEAADTx7t3/B01bakGd4kzGAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EggplantBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwQAAAHaCAYAAAC+UI6UAAAABGdBTUEAALGPC/xhBQAANG1JREFUeF7t
         3W2sZVd5H/AxjgM0ceOoTe0IMCaMjRFSsJRWQaJKLVFVSXgbj0vkNh8YEDbXFgkTXpJIAdEKgqUoVZt+
@@ -2322,6 +2322,9 @@
         wEQOUAAAEzlAAQBM5AAFADCRAxQAwEQOUAAAk9zd/X92601+2gUKZgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg

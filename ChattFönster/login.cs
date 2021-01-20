@@ -14,12 +14,13 @@ namespace ChattFönster
     public partial class login : Form
     {   //Hey, where you from, Loser? Are you from Losertown, because you're a loser!
         public static String name = "Loser";
+        public String FuckYouPicture = "iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVDhPzdKxDcMgEEBRSkrGYgRKSjZhBErGYILUGSEjUFJedNIFxVzOgOLCX7rG6J6MZfV4vuCKuR5SSi1PrRXGRCiEwJ7heO9p9djWG1lraY23BeWcaY23BWmtaY3XIakY4wGTmkLYvaCU0v9QKQWMMR1xztEJT4RGBKe1Rqe8DuEVPv1C8E8/q0PfS+PMEGwKrSDYKbSKYOLH3u1uEMAbuHdT6MWAujQAAAAASUVORK5CYII=";
         public login()
         {
             playHolyMusic();
             InitializeComponent();
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             CurrentName.Visible = true;
@@ -39,30 +40,47 @@ namespace ChattFönster
 
         private void Label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void DoneButton_Click_1(object sender, EventArgs e)
         {   //Makes the name valid
-            name = NameBox.Text;
-            name = name.Trim();
-            if (name.Length <= 20 && name.Length >= 4)
+            if (DoneButton.Text == "Login")
             {
-                //Very many cool
-                NameStatus.Text = name;
-                NameBox.Visible = false;
-                DoneButton.Visible = false;
-                //Opens the "main"-form
-                Form1 F = new Form1();
-                F.Show();
-                this.Hide();
+                name = NameBox.Text;
+                name = name.Trim();
+                if (name.Length <= 20 && name.Length >= 4)
+                {
+                    //Very many cool
+                    NameStatus.Text = name;
+                    NameBox.Visible = false;
+                    DoneButton.Visible = false;
+                    //Opens the "main"-form
+                    Form1 F = new Form1();
+                    F.Show();
+                    this.Hide();
 
+                }
+                else
+                {
+                    NameStatus.Visible = true;
+                    NameStatus.Text = "Please put your name between 4 and 20 characters";
+                }
             }
-            else
+            else if (DoneButton.Text == "Create")
             {
-                NameStatus.Text = "Please put your name between 4 and 20 characters";
+                if (name.Length <= 20 && name.Length >= 4)
+                {
+
+                }
+                else
+                {
+                    NameStatus.Visible = true;
+                    NameStatus.Text = "Please put your name between 4 and 20 characters";
+                }
             }
         }
+        
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
@@ -76,8 +94,8 @@ namespace ChattFönster
 
         private void playHolyMusic()
         {
-            //SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
-            //simpleSound.Play();
+            SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
+            simpleSound.Play();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -89,8 +107,13 @@ namespace ChattFönster
         {
             if (button2.Text == "Create a new account")
             {
+                DoneButton.Text = "Create Account";
                 button2.Text = "Login instead";
-            } else { button2.Text = "Create a new account"; }
+            }
+            else { button2.Text = "Create a new account";
+                DoneButton.Text = "Login";
+            }
+
         }
     }
 }

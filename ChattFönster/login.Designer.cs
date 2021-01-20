@@ -48,11 +48,11 @@
             // 
             // DoneButton
             // 
-            this.DoneButton.Location = new System.Drawing.Point(154, 48);
+            this.DoneButton.Location = new System.Drawing.Point(152, 73);
             this.DoneButton.Name = "DoneButton";
             this.DoneButton.Size = new System.Drawing.Size(75, 23);
             this.DoneButton.TabIndex = 1;
-            this.DoneButton.Text = "Done";
+            this.DoneButton.Text = "Login";
             this.DoneButton.UseVisualStyleBackColor = true;
             this.DoneButton.Click += new System.EventHandler(this.DoneButton_Click_1);
             // 
@@ -73,6 +73,7 @@
             this.NameStatus.Size = new System.Drawing.Size(125, 13);
             this.NameStatus.TabIndex = 3;
             this.NameStatus.Text = "Please write a username!";
+            this.NameStatus.Visible = false;
             // 
             // textBox1
             // 
@@ -85,7 +86,7 @@
             // button2
             // 
             this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Location = new System.Drawing.Point(48, 102);
+            this.button2.Location = new System.Drawing.Point(35, 120);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(123, 23);
             this.button2.TabIndex = 9;
