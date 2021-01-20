@@ -33,19 +33,22 @@
             this.DoneButton = new System.Windows.Forms.Button();
             this.CurrentName = new System.Windows.Forms.Label();
             this.NameStatus = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NameBox
             // 
-            this.NameBox.Location = new System.Drawing.Point(47, 49);
+            this.NameBox.Location = new System.Drawing.Point(48, 48);
             this.NameBox.Name = "NameBox";
             this.NameBox.Size = new System.Drawing.Size(100, 20);
             this.NameBox.TabIndex = 0;
+            this.NameBox.Text = "Användarnamn:";
             this.NameBox.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // DoneButton
             // 
-            this.DoneButton.Location = new System.Drawing.Point(153, 46);
+            this.DoneButton.Location = new System.Drawing.Point(154, 48);
             this.DoneButton.Name = "DoneButton";
             this.DoneButton.Size = new System.Drawing.Size(75, 23);
             this.DoneButton.TabIndex = 1;
@@ -65,17 +68,38 @@
             // NameStatus
             // 
             this.NameStatus.AutoSize = true;
-            this.NameStatus.Location = new System.Drawing.Point(44, 90);
+            this.NameStatus.Location = new System.Drawing.Point(45, 30);
             this.NameStatus.Name = "NameStatus";
             this.NameStatus.Size = new System.Drawing.Size(125, 13);
             this.NameStatus.TabIndex = 3;
             this.NameStatus.Text = "Please write a username!";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(48, 76);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(98, 20);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "Lösenord, bitch:";
+            // 
+            // button2
+            // 
+            this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button2.Location = new System.Drawing.Point(48, 102);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(123, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Create a new account";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // login
             // 
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(322, 496);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.NameStatus);
             this.Controls.Add(this.CurrentName);
             this.Controls.Add(this.DoneButton);
@@ -93,5 +117,7 @@
         private System.Windows.Forms.Button DoneButton;
         private System.Windows.Forms.Label CurrentName;
         private System.Windows.Forms.Label NameStatus;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button2;
     }
 }

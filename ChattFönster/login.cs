@@ -76,8 +76,21 @@ namespace ChattFönster
 
         private void playHolyMusic()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
-            simpleSound.Play();
+            //SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
+            //simpleSound.Play();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (button2.Text == "Create a new account")
+            {
+                button2.Text = "Login instead";
+            } else { button2.Text = "Create a new account"; }
         }
     }
 }
