@@ -253,5 +253,10 @@ namespace ChattFönster
         private void PictureBox1_Click(object sender, EventArgs e)
         {
             EggplantBox.Visible = false;        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }

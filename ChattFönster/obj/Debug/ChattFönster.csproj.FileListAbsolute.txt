@@ -1,50 +1,3 @@
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\ChattFönster.exe.config
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\ChattFönster.exe
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\ChattFönster.pdb
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.Form1.resources
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.resources
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.exe
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.pdb
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\Newtonsoft.Json.dll
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\bin\Debug\Newtonsoft.Json.xml
-K:\TeknikSpec\Programmering\ChattFönster\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe.config
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\bin\Debug\ChattFönster.pdb
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.dll
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.xml
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Form1.resources
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.login.resources
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.resources
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
-K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Form1.resources
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.login.resources
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.resources
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe.config
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\bin\Debug\ChattFönster.pdb
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.dll
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.xml
-K:\TeknikSpec\Programmering\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
-D:\Marcus\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
-D:\Marcus\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
-D:\Marcus\ChattFönster\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
-D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
-D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
-D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
 D:\Marcus\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe.config
 D:\Marcus\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe
 D:\Marcus\SnoppChat\ChattFönster\bin\Debug\ChattFönster.pdb
@@ -56,34 +9,5 @@ D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.r
 D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
 D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
 D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
-<<<<<<< Updated upstream
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Form1.resources
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.login.resources
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.resources
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
-E:\kms\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe.config
-E:\kms\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe
-E:\kms\SnoppChat\ChattFönster\bin\Debug\ChattFönster.pdb
-E:\kms\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.dll
-E:\kms\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.xml
-E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
-=======
-D:\Programmering\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe.config
-D:\Programmering\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe
-D:\Programmering\SnoppChat\ChattFönster\bin\Debug\ChattFönster.pdb
-D:\Programmering\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.dll
-D:\Programmering\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.xml
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Form1.resources
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.login.resources
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.resources
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
-D:\Programmering\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
->>>>>>> Stashed changes
+D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
+D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb

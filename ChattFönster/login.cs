@@ -104,8 +104,8 @@ namespace ChattFönster
 
         private void playHolyMusic()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
-            simpleSound.Play();
+            //SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
+            //simpleSound.Play();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)

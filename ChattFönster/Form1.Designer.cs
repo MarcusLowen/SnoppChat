@@ -73,11 +73,11 @@
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBox1.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox1.Location = new System.Drawing.Point(0, 494);
+            this.textBox1.Location = new System.Drawing.Point(0, 488);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox1.Size = new System.Drawing.Size(800, 20);
+            this.textBox1.Size = new System.Drawing.Size(802, 20);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Write Text Here";
             this.textBox1.Click += new System.EventHandler(this.TextBox1_Click);
@@ -88,9 +88,9 @@
             // 
             this.vScrollBar1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.vScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.vScrollBar1.Location = new System.Drawing.Point(774, 0);
+            this.vScrollBar1.Location = new System.Drawing.Point(776, 0);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(26, 494);
+            this.vScrollBar1.Size = new System.Drawing.Size(26, 488);
             this.vScrollBar1.TabIndex = 3;
             this.vScrollBar1.Value = 100;
             this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.VScrollBar1_Scroll);
@@ -101,7 +101,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(366, 31);
+            this.label1.Location = new System.Drawing.Point(371, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(193, 31);
             this.label1.TabIndex = 4;
@@ -114,17 +114,6 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 10000;
             this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 578);
-            this.label2.MaximumSize = new System.Drawing.Size(200, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "därfrör ffsj";
             // 
             // EmojiButton
             // 
@@ -239,6 +228,7 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // Form1
             // 
@@ -247,13 +237,12 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(792, 468);
+            this.ClientSize = new System.Drawing.Size(809, 485);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.EggplantBox);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.textBox1);
