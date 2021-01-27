@@ -19,6 +19,7 @@ namespace ChattFönster
         List<Label> labelList = new List<Label>();
 
         WebClient wc = new WebClient();
+        bool Visible = true;
 
         Messages readMessages;
 
@@ -252,9 +253,29 @@ namespace ChattFönster
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
-            EggplantBox.Visible = false;        }
+            if (Visible == true) 
+            {
+                EggplantBox.Visible = false;
+                SmilingBox.Visible = false;
+                CoolBox.Visible = false;
+                MonkeyBox.Visible = false;
+                Visible = false;
+            } else if (Visible = false)
+            {
+                EggplantBox.Visible = true;
+                SmilingBox.Visible = true;
+                CoolBox.Visible = true;
+                MonkeyBox.Visible = true;
+                Visible = true;
+            }
+                   }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void EggplantBox_Click(object sender, EventArgs e)
         {
 
         }

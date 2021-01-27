@@ -33,7 +33,7 @@
             this.DoneButton = new System.Windows.Forms.Button();
             this.CurrentName = new System.Windows.Forms.Label();
             this.NameStatus = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.PasswordBox = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -75,13 +75,13 @@
             this.NameStatus.Text = "Please write a username!";
             this.NameStatus.Visible = false;
             // 
-            // textBox1
+            // PasswordBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(48, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(98, 20);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Lösenord, bitch:";
+            this.PasswordBox.Location = new System.Drawing.Point(48, 76);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.Size = new System.Drawing.Size(98, 20);
+            this.PasswordBox.TabIndex = 4;
+            this.PasswordBox.Text = "Lösenord:";
             // 
             // button2
             // 
@@ -100,7 +100,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(322, 496);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PasswordBox);
             this.Controls.Add(this.NameStatus);
             this.Controls.Add(this.CurrentName);
             this.Controls.Add(this.DoneButton);
@@ -118,7 +118,7 @@
         private System.Windows.Forms.Button DoneButton;
         private System.Windows.Forms.Label CurrentName;
         private System.Windows.Forms.Label NameStatus;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox PasswordBox;
         private System.Windows.Forms.Button button2;
     }
 }

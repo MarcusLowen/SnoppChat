@@ -41,20 +41,20 @@
             this.HappyButton = new System.Windows.Forms.PictureBox();
             this.CoolButton = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.CoolBox = new System.Windows.Forms.PictureBox();
             this.EggplantBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.MonkeyBox = new System.Windows.Forms.PictureBox();
+            this.SmilingBox = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.EggplantButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MonkeeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HappyButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoolButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoolBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EggplantBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MonkeyBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SmilingBox)).BeginInit();
             this.SuspendLayout();
             // 
             // Skicka
@@ -101,7 +101,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(371, 31);
+            this.label1.Location = new System.Drawing.Point(368, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(193, 31);
             this.label1.TabIndex = 4;
@@ -184,16 +184,16 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
-            // pictureBox2
+            // CoolBox
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(604, 351);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(80, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.CoolBox.Image = ((System.Drawing.Image)(resources.GetObject("CoolBox.Image")));
+            this.CoolBox.Location = new System.Drawing.Point(604, 351);
+            this.CoolBox.Name = "CoolBox";
+            this.CoolBox.Size = new System.Drawing.Size(80, 50);
+            this.CoolBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CoolBox.TabIndex = 7;
+            this.CoolBox.TabStop = false;
+            this.CoolBox.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // EggplantBox
             // 
@@ -204,26 +204,27 @@
             this.EggplantBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.EggplantBox.TabIndex = 8;
             this.EggplantBox.TabStop = false;
+            this.EggplantBox.Click += new System.EventHandler(this.EggplantBox_Click);
             // 
-            // pictureBox4
+            // MonkeyBox
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(525, 351);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(73, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
+            this.MonkeyBox.Image = ((System.Drawing.Image)(resources.GetObject("MonkeyBox.Image")));
+            this.MonkeyBox.Location = new System.Drawing.Point(525, 351);
+            this.MonkeyBox.Name = "MonkeyBox";
+            this.MonkeyBox.Size = new System.Drawing.Size(73, 50);
+            this.MonkeyBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MonkeyBox.TabIndex = 9;
+            this.MonkeyBox.TabStop = false;
             // 
-            // pictureBox5
+            // SmilingBox
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(438, 351);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(81, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 10;
-            this.pictureBox5.TabStop = false;
+            this.SmilingBox.Image = ((System.Drawing.Image)(resources.GetObject("SmilingBox.Image")));
+            this.SmilingBox.Location = new System.Drawing.Point(438, 351);
+            this.SmilingBox.Name = "SmilingBox";
+            this.SmilingBox.Size = new System.Drawing.Size(81, 50);
+            this.SmilingBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.SmilingBox.TabIndex = 10;
+            this.SmilingBox.TabStop = false;
             // 
             // openFileDialog1
             // 
@@ -238,10 +239,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(809, 485);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.SmilingBox);
+            this.Controls.Add(this.MonkeyBox);
             this.Controls.Add(this.EggplantBox);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.CoolBox);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.vScrollBar1);
@@ -256,10 +257,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.HappyButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CoolButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoolBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EggplantBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MonkeyBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SmilingBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,10 +279,10 @@
         private System.Windows.Forms.PictureBox HappyButton;
         private System.Windows.Forms.PictureBox CoolButton;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox CoolBox;
         private System.Windows.Forms.PictureBox EggplantBox;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox MonkeyBox;
+        private System.Windows.Forms.PictureBox SmilingBox;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

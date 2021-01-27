@@ -20,7 +20,7 @@ namespace ChattFönster
 
         WebClient wc = new WebClient();
 
-        string password;
+        public string password;
         public login()
         {
             playHolyMusic();
@@ -55,16 +55,22 @@ namespace ChattFönster
             {
                 name = NameBox.Text;
                 name = name.Trim();
+                password = PasswordBox.Text;
                 if (name.Length <= 20 && name.Length >= 4)
                 {
                     //Very many cool
                     NameStatus.Text = name;
-                    NameBox.Visible = false;
-                    DoneButton.Visible = false;
-                    //Opens the "main"-form
-                    Form1 F = new Form1();
-                    F.Show();
-                    this.Hide();
+                    
+                    string account = wc.DownloadString("http://localhost:3000/login/user/password");
+
+                    if (account == "suces")
+                    {
+                        //Opens the "main"-form
+                       
+                        Form1 F = new Form1();
+                        F.Show();
+                        this.Hide();
+                    } else  if(account == "failed") { }
 
                 }
                 else
@@ -75,9 +81,16 @@ namespace ChattFönster
             }
             else if (DoneButton.Text == "Create")
             {
+                password = PasswordBox.Text;
                 if (name.Length <= 20 && name.Length >= 4)
                 {
-
+                    //Very many cool
+                    NameStatus.Text = name;
+                    string account = wc.DownloadString("http://localhost:3000/add/" + name + "/" + password );
+                    //Opens the "main"-form
+                    Form1 F = new Form1();
+                    F.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -85,6 +98,7 @@ namespace ChattFönster
                     NameStatus.Text = "Please put your name between 4 and 20 characters";
                 }
             }
+           
         }
         
 

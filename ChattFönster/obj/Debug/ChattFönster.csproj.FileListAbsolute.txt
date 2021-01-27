@@ -11,3 +11,17 @@ D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInpu
 D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
 D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
 D:\Marcus\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
+E:\kms\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe.config
+E:\kms\SnoppChat\ChattFönster\bin\Debug\ChattFönster.exe
+E:\kms\SnoppChat\ChattFönster\bin\Debug\ChattFönster.pdb
+E:\kms\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.dll
+E:\kms\SnoppChat\ChattFönster\bin\Debug\Newtonsoft.Json.xml
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csprojAssemblyReference.cache
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Form1.resources
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.login.resources
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.Properties.Resources.resources
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.GenerateResource.cache
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CoreCompileInputs.cache
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.csproj.CopyComplete
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.exe
+E:\kms\SnoppChat\ChattFönster\obj\Debug\ChattFönster.pdb
