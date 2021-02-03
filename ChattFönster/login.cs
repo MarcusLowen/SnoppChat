@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Media;
 using System.Web;
 using System.Net;
+using ChattFönster.Properties;
 
 namespace ChattFönster
 {
@@ -118,8 +119,8 @@ namespace ChattFönster
 
         private void playHolyMusic()
         {
-            //SoundPlayer simpleSound = new SoundPlayer(@"K:\Teknik\IMT\prog 2 jao\kanskebra\SnoppChat\crack2.wav");
-            //simpleSound.Play();
+           SoundPlayer simpleSound = new SoundPlayer();
+           simpleSound.Play();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)

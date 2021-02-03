@@ -97,5 +97,8 @@
   <ItemGroup>
     <None Include="Resources\MicrosoftTeams-image.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\crack2.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

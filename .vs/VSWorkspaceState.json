@@ -2,6 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\ChattFönster",
+    "\\ChattFönster\\bin",
+    "\\ChattFönster\\obj",
+    "\\ChattFönster\\Properties",
+    "\\ChattFönster\\Resources",
     "\\packages"
   ],
   "SelectedNode": "\\ChattFönster.sln",
